@@ -1,0 +1,32 @@
+{
+  "name": "InnatePerspective",
+  "version": "0.0.1",
+  "description": "InnatePerspective is a responsive WordPress theme that's ideal for musicians or journalists.",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewsgardner/InnatePerspective.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "responsive",
+    "blog",
+    "musicians",
+    "journalists"
+  ],
+  "author": "Andrew S. Gardner",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/andrewsgardner/InnatePerspective/issues"
+  },
+  "homepage": "https://github.com/andrewsgardner/InnatePerspective",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.2"
+  }
+}
