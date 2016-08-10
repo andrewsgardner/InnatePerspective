@@ -1,0 +1,24 @@
+.page-container {
+	min-height: 100%;
+	//margin-bottom: -18.75em; /* -300px = -18.75em */
+    margin-bottom: -200px;
+
+    &:after {
+        content: "";
+        display: block;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.white-link-style {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: $hex-white;
+    font-weight: 400;
+    text-shadow: 0 0 .125em $hex-black; /* 2px = .125em */
+}

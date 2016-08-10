@@ -1,0 +1,13 @@
+.grid-container {
+    width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.content {
+    margin: 0 10%;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}

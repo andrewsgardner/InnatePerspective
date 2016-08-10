@@ -1,0 +1,70 @@
+header {
+    position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 2;
+	border-bottom: .312em solid $hex-light-gray; /* 5px = .3125em */
+	box-shadow: 0 .062em .062em $hex-dark-gray,
+				0 -.062em .062em $hex-dark-gray; /* 1px = .0625em */
+
+    &:before, &:after {
+        content: "";
+        display: block;
+        background-color: $hex-orange;
+        box-shadow: 0 0 0 .062em $hex-orange;
+    }
+}
+
+.primary-nav {
+    display: table;
+    width: 100%;
+}
+
+.primary-nav-l, .primary-nav-r {
+	text-align: center;
+	vertical-align: middle;
+	background-color: $hex-orange;
+
+    li {
+        letter-spacing: .15em;
+    }
+
+    a,
+    a:visited {
+        @extend .white-link-style;
+    }
+
+    li.current-menu-item a {
+        opacity: 1;
+        font-weight: 600;
+        color: $hex-white;
+        text-transform: uppercase;
+        font-size: 81%;
+    }
+}
+
+.primary-nav-logo {
+	box-shadow: inset 0 0 .187em .062em $hex-black; /* 3px = .1875em */
+    overflow: hidden;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 0 1em;
+        @include transition('all 250ms linear');
+    }
+}
+
+.trigger-logo {
+    @include transition('all 250ms linear');
+}
+
+div.primary-nav-l.scroll-text, div.primary-nav-r.scroll-text {
+    font-size: .95em;
+}
+
+.m-active {
+    display: none;
+}

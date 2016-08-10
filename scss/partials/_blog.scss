@@ -1,0 +1,65 @@
+article.post {
+    margin-top: 3.2em;
+}
+
+article.post:first-of-type {
+    margin-top: 0;
+}
+
+article.post ul, article.post ol {
+    display: block;
+    list-style-position: inside;
+    padding: 0 2.5em;
+}
+
+article.post ul {
+    list-style-type: disc;
+}
+
+article.post ol {
+    list-style-type: decimal;
+}
+
+article.post ul li, article.post ol li {
+    line-height: 1.5em;
+}
+
+article.post h2 {
+    font-size: 1.4em;
+    margin-top: 1em;
+}
+
+article.post a, article.post a:visited {
+    text-decoration: none;
+    font-weight: 500;
+    color: $hex-orange;
+    text-shadow: 0 0 .0393em $hex-black; /* .63px = .0393em */
+}
+
+
+
+.post-aside {
+    //font-size: 124%;
+    background-color: $hex-light-gray;
+    //padding: 1em;
+    //border: .2em solid black;
+    border-radius: .312em;
+    //margin-top: 0;
+    box-shadow: 0 0 .312em $hex-black, inset 0 0 .312em $hex-black;
+} /* left off here... */
+
+
+
+
+p.post-meta {
+    margin-top: .4em;
+    font-size: 85%;
+    color: $hex-darkest-gray;
+}
+
+article.post img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    box-shadow: 0 0 .312em $hex-black, inset 0 0 .312em $hex-black; /* 5px = .3125em */
+}
