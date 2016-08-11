@@ -36,7 +36,7 @@
                     <?php else : ?>
                     
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-                        <img src="<?php echo get_template_directory_uri() . '/img/logo/logo.png'; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="trigger-logo">
+                        <img src="<?php echo get_template_directory_uri() . '/img/logo/dist/logo.png'; ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="trigger-logo">
                     </a>
                         
                     <?php endif; ?>
