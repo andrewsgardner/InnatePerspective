@@ -1,7 +1,7 @@
 Theme Name: InnatePerspective
 
 Author:     Andrew S. Gardner
-Author URI: http://www.andrewsgardner.com
+Author URI: https://www.andrewsgardner.com
 Version:    0.1
 
 -----------------------------------------------------------------------------
