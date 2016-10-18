@@ -1,3 +1,10 @@
+/**
+ * Theme Name: InnatePerspective
+ * @author     Andrew S. Gardner
+ * @link       https://www.andrewsgardner.com
+ * @version    v0.0.2
+ * @license    GPL
+ */
 jQuery(document).ready(function($) {
     
     /* scroll animation */
