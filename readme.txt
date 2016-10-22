@@ -2,7 +2,7 @@ Theme Name: InnatePerspective
 
 Author:     Andrew S. Gardner
 Author URI: https://www.andrewsgardner.com
-Version:    0.1
+Version:    v0.1.0
 
 -----------------------------------------------------------------------------
 	Copyright & Licenses
@@ -27,5 +27,8 @@ The following frameworks libraries, graphics, fonts or other files as listed hav
 	Changelog
 -----------------------------------------------------------------------------
 
-Version 0.1
-- AdaptiveNav pre-release for testing purposes.
+Version 0.0.1
+- AdaptiveNav first pre-release for testing purposes.
+
+Version 0.1.0
+- Added: Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
