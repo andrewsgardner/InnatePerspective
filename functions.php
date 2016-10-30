@@ -22,13 +22,27 @@ function js_init() {
 }
 add_action('init', 'js_init');
 
-// html layout
-$htmlLayout = array(
-    'open-grid-container' => '<div class="grid-container">',
-    'close-grid-container' => '</div>',
-    'open-content' => '<section class="content"><!-- BEGIN Page Content -->',
-    'close-content' => '</section><!-- END Page Content -->',
-);
+
+// html layout - open grid-container tag
+function openGridContainer() {
+    echo "\n\t\t\t<div class=\"grid-container\">\n";
+}
+
+// html layout - close grid-container tag
+function closeGridContainer() {
+    echo "\t\t</div>";
+}
+
+// html layout - open content tag
+function openContent() {
+    echo "\t\t\t\t<section class=\"content\"><!-- BEGIN Page Content -->\n";
+}
+
+// html layout - close content tag
+function closeContent() {
+    echo "\t\t\t\t</section><!-- END Page Content -->\n";
+}
+
 
 // custom excerpt word count length
 function custom_excerpt_length() {

@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
-    <?php echo $htmlLayout['open-grid-container'].$htmlLayout['open-content']; ?>
-        <h1>Blog</h1>
+    <?php openGridContainer(); ?>
+    <?php openContent(); ?>
+
+            <h1>Blog</h1>
             
         <?php
 
@@ -49,6 +51,7 @@
 
         ?>
 
-    <?php echo $htmlLayout['close-content'].$htmlLayout['close-grid-container']; ?>
+    <?php closeContent(); ?>
+    <?php closeGridContainer(); ?>
 
 <?php get_footer(); ?>
