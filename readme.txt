@@ -28,7 +28,8 @@ The following frameworks libraries, graphics, fonts or other files as listed hav
 -----------------------------------------------------------------------------
 
 Version 0.0.1
-- AdaptiveNav first pre-release for testing purposes.
+- Added:   AdaptiveNav first pre-release code for testing purposes.
 
 Version 0.1.0
-- Added: Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
+- Added:   Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
+- Updated: Replaced $htmlLayout[''] elements with openGridContainer(), closeGridContainer(), openContent(), and closeContent() functions.
