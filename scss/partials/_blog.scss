@@ -1,5 +1,5 @@
 article.post {
-    margin-top: 3.2em;
+    margin-top: em(51.200);
 }
 
 article.post:first-of-type {
@@ -9,7 +9,7 @@ article.post:first-of-type {
 article.post ul, article.post ol {
     display: block;
     list-style-position: inside;
-    padding: 0 2.5em;
+    padding: 0 em(40);
 }
 
 article.post ul {
@@ -21,19 +21,19 @@ article.post ol {
 }
 
 article.post ul li, article.post ol li {
-    line-height: 1.5em;
+    line-height: em(24);
 }
 
 article.post h2 {
-    font-size: 1.4em;
-    margin-top: 1em;
+    font-size: em(22.4);
+    margin-top: em(16);
 }
 
 article.post a, article.post a:visited {
     text-decoration: none;
     font-weight: 500;
     color: $hex-orange;
-    text-shadow: 0 0 .0393em $hex-black; /* .63px = .0393em */
+    text-shadow: 0 0 em(.63) $hex-black;
 }
 
 
@@ -41,18 +41,18 @@ article.post a, article.post a:visited {
 .post-aside {
     //font-size: 124%;
     background-color: $hex-light-gray;
-    //padding: 1em;
-    //border: .2em solid black;
-    border-radius: .312em;
+    //padding: em(16);
+    //border: em(3.2) solid black;
+    border-radius: em(5);
     //margin-top: 0;
-    box-shadow: 0 0 .312em $hex-black, inset 0 0 .312em $hex-black;
-} /* left off here... */
+    box-shadow: 0 0 em(5) $hex-black, inset 0 0 em(5) $hex-black;
+}
 
 
 
 
 p.post-meta {
-    margin-top: .4em;
+    margin-top: em(6.4);
     font-size: 85%;
     color: $hex-darkest-gray;
 }
@@ -61,5 +61,5 @@ article.post img {
     max-width: 100%;
     display: block;
     height: auto;
-    box-shadow: 0 0 .312em $hex-black, inset 0 0 .312em $hex-black; /* 5px = .3125em */
+    box-shadow: 0 0 em(5) $hex-black, inset 0 0 em(5) $hex-black;
 }
