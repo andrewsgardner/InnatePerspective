@@ -1,14 +1,13 @@
 footer, .page-container:after {
-    //height: 18.75em;
-    height: 200px;
+    height: em(200);
 }
 
 footer {
     background-color: $hex-orange;
 	overflow: hidden;
-	border-top: .312em solid $hex-light-gray;
-    box-shadow: 0 .031em .062em $hex-dark-gray,
-				0 .031em .062em $hex-dark-gray; /* .5px = .03125em */
+	border-top: em(5) solid $hex-light-gray;
+    box-shadow: 0 em(.496) em(.992) $hex-dark-gray,
+				0 em(.496) em(.992) $hex-dark-gray;
 
     a,
     a:visited {
@@ -28,7 +27,7 @@ footer {
 .search #searchsubmit, .login button {
     background-color: $hex-light-gray;
     color: $hex-black;
-    padding: .375em 1.05em;
+    padding: em(6) em(16.8);
     text-transform: lowercase;
     border: none;
     vertical-align: top;
@@ -44,5 +43,5 @@ footer {
 
 .search #s {
     vertical-align: top;
-    padding: .237em 0;
+    padding: em(3.792) 0;
 }

@@ -301,19 +301,17 @@ article.post a, article.post a:visited {
   text-decoration: none;
   font-weight: 500;
   color: #f16745;
-  text-shadow: 0 0 0.0393em #2b2527;
-  /* .63px = .0393em */
+  text-shadow: 0 0 0.03938em #2b2527;
 }
 
 .post-aside {
   background-color: #bfbfbf;
-  border-radius: .312em;
-  box-shadow: 0 0 0.312em #2b2527, inset 0 0 0.312em #2b2527;
+  border-radius: 0.3125em;
+  box-shadow: 0 0 0.3125em #2b2527, inset 0 0 0.3125em #2b2527;
 }
 
-/* left off here... */
 p.post-meta {
-  margin-top: .4em;
+  margin-top: 0.4em;
   font-size: 85%;
   color: #5B5B5B;
 }
@@ -322,8 +320,7 @@ article.post img {
   max-width: 100%;
   display: block;
   height: auto;
-  box-shadow: 0 0 0.312em #2b2527, inset 0 0 0.312em #2b2527;
-  /* 5px = .3125em */
+  box-shadow: 0 0 0.3125em #2b2527, inset 0 0 0.3125em #2b2527;
 }
 
 /*------------> 9. RADIO <-----------*/
@@ -332,15 +329,14 @@ article.post img {
 /*-----------> 12. CONTACT <---------*/
 /*----------> 13. FOOTER <-----------*/
 footer, .page-container:after {
-  height: 200px;
+  height: 12.5em;
 }
 
 footer {
   background-color: #f16745;
   overflow: hidden;
-  border-top: 0.312em solid #bfbfbf;
+  border-top: 0.3125em solid #bfbfbf;
   box-shadow: 0 0.031em 0.062em #737373, 0 0.031em 0.062em #737373;
-  /* .5px = .03125em */
 }
 
 .column-wrap {
@@ -363,7 +359,7 @@ footer {
 
 .search #s {
   vertical-align: top;
-  padding: .237em 0;
+  padding: 0.237em 0;
 }
 
 /*-------> 14. MEDIA QUERIES <-------*/
