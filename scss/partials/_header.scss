@@ -5,15 +5,15 @@ header {
 	left: 0;
 	overflow: hidden;
 	z-index: 2;
-	border-bottom: .312em solid $hex-light-gray; /* 5px = .3125em */
-	box-shadow: 0 .062em .062em $hex-dark-gray,
-				0 -.062em .062em $hex-dark-gray; /* 1px = .0625em */
+    border-bottom: em(5) solid $hex-light-gray;
+    box-shadow: 0 em(.992) em(.992) $hex-dark-gray,
+				0 em(-.992) em(.992) $hex-dark-gray;
 
     &:before, &:after {
         content: "";
         display: block;
         background-color: $hex-orange;
-        box-shadow: 0 0 0 .062em $hex-orange;
+        box-shadow: 0 0 0 em(.992) $hex-orange;
     }
 }
 
@@ -28,14 +28,14 @@ header {
 	background-color: $hex-orange;
 
     li {
-        letter-spacing: .15em;
+        letter-spacing: em(2.4);
     }
 
     a,
     a:visited {
         @extend .white-link-style;
     }
-
+    
     li.current-menu-item a {
         opacity: 1;
         font-weight: 600;
@@ -46,13 +46,13 @@ header {
 }
 
 .primary-nav-logo {
-	box-shadow: inset 0 0 .187em .062em $hex-black; /* 3px = .1875em */
+    box-shadow: inset 0 0 em(2.992) em(.992) $hex-black;
     overflow: hidden;
 
     img {
         display: block;
         margin: 0 auto;
-        padding: 0 1em;
+        padding: 0 em(16);
         @include transition('all 250ms linear');
     }
 }
@@ -62,7 +62,7 @@ header {
 }
 
 div.primary-nav-l.scroll-text, div.primary-nav-r.scroll-text {
-    font-size: .95em;
+    font-size: em(15.2);
 }
 
 .m-active {
