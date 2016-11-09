@@ -1,7 +1,6 @@
 .page-container {
 	min-height: 100%;
-	//margin-bottom: -18.75em; /* -300px = -18.75em */
-    margin-bottom: -200px;
+    margin-bottom: em(-200);
 
     &:after {
         content: "";
@@ -20,5 +19,5 @@
     text-transform: lowercase;
     color: $hex-white;
     font-weight: 400;
-    text-shadow: 0 0 .125em $hex-black; /* 2px = .125em */
+    text-shadow: 0 0 em(2) $hex-black;
 }
