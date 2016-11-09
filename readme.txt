@@ -33,3 +33,4 @@ Version 0.0.1
 Version 0.1.0
 - Added:   Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
 - Updated: Replaced $htmlLayout[''] elements with openGridContainer(), closeGridContainer(), openContent(), and closeContent() functions.
+- Updated: Converted all pre-processed units in SCSS from em to px.
