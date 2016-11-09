@@ -14,7 +14,7 @@ function js_init() {
     if (!is_admin()) {
         // jquery
         wp_deregister_script('jquery');
-        wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', false, '1.11.3', true);
+        wp_register_script('jquery', '/wp-includes/js/jquery/jquery.js', false, '1.12.4', true);
         wp_enqueue_script('jquery');
         // common.js
         wp_enqueue_script('my_script', get_bloginfo('template_url') . '/js/dist/common.js', array('jquery'), '0.1.0', true);
