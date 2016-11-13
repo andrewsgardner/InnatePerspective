@@ -126,6 +126,12 @@ blockquote:before {
   top: -0.112em;
   color: #5B5B5B; }
 
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  margin-top: -0.125em;
+  margin-bottom: -0.125em; }
+
 /*---------> 4. STRUCTURAL <---------*/
 .page-container {
   min-height: 100%;
@@ -142,7 +148,7 @@ blockquote:before {
 .white-link-style, .primary-nav-l a,
 .primary-nav-l a:visited, .primary-nav-r a,
 .primary-nav-r a:visited, footer a,
-footer a:visited, footer p, .active-user {
+footer a:visited, footer p {
   text-decoration: none;
   text-transform: lowercase;
   color: #fff;
@@ -276,11 +282,22 @@ footer {
   border-top: 0.3125em solid #bfbfbf;
   box-shadow: 0 0.031em 0.062em #737373, 0 0.031em 0.062em #737373; }
 
-.column-wrap {
-  width: 95%;
+.search, .ftr-menu, .copyright {
+  box-sizing: border-box;
+  width: 100%;
+  height: 33.33%;
   margin: 0 auto; }
 
-.search #searchsubmit, .login button {
+.search {
+  text-align: center;
+  padding-top: 2.66625em; }
+  .search p {
+    margin: 0; }
+
+.search label {
+  display: none; }
+
+.search #searchsubmit {
   background-color: #bfbfbf;
   color: #2b2527;
   padding: 0.375em 1.05em;
@@ -288,12 +305,37 @@ footer {
   border: none;
   vertical-align: top; }
 
-.search label {
-  display: none; }
-
 .search #s {
   vertical-align: top;
   padding: 0.237em 0; }
+
+.copyright {
+  clear: both;
+  text-align: center; }
+  .copyright p {
+    margin: 0;
+    font-size: 78%; }
+
+.ftr-menu {
+  text-align: center;
+  padding: 1.43719em 0; }
+  .ftr-menu a {
+    display: inline;
+    font-size: 78%;
+    margin: 0 0.641em; }
+  .ftr-menu button {
+    background-color: #bfbfbf;
+    color: #2b2527;
+    padding: 0.28125em 0.7875em;
+    text-transform: lowercase;
+    border: none;
+    vertical-align: middle; }
+
+a.active-user {
+  margin-left: -0.641em;
+  color: #2b2527;
+  text-shadow: 0 0 0.00063em #fff;
+  font-weight: 800; }
 
 /*-------> 14. MEDIA QUERIES <-------*/
 @media only screen and (min-width: 12.5em) {
@@ -409,14 +451,7 @@ footer {
     padding: 0; }
   .post-thumbnail {
     display: block; }
-  /*----> FOOTER <----*/
-  .search, .copyright, .login {
-    display: block;
-    padding: 0.75em 0;
-    text-align: center; }
-  .copyright p {
-    margin: 0;
-    font-size: 78%; } }
+  /*----> FOOTER <----*/ }
 
 @media only screen and (min-width: 30em) {
   /* Extra Small Devices, Phones: 480px = 30em */
@@ -486,15 +521,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0; }
-  /*----> FOOTER <----*/
-  .search, .login {
-    display: inline-block;
-    width: 33.33%;
-    padding: 1em 0; }
-  .login {
-    float: left; }
-  .search {
-    float: right; } }
+  /*----> FOOTER <----*/ }
 
 @media only screen and (min-width: 62em) {
   /* Medium Devices, Desktops: 992px = 62em */

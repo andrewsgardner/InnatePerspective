@@ -1,24 +1,21 @@
     </div><!-- END Page Container -->
     
     <footer>
-        <div class="column-wrap clearfix">
-            <span class="search">
-                <?php get_search_form(); ?>
-            </span>
-            <span class="login">
-                <?php if (is_user_logged_in()) : ?>
-                    <a href="<?php echo wp_logout_url(); ?>"><button type="button">Sign out</button></a>
-                    <span class="active-user"><?php global $current_user; get_currentuserinfo(); echo "&nbsp;&nbsp;" . $current_user->user_firstname; ?></span>
-                <?php else : ?>
-                    <a href="<?php echo wp_login_url(); ?>"><button type="button">Sign in</button></a>
-                <?php endif ;?>
-            </span>
+        <div class="search">
+            <?php get_search_form(); ?>
         </div>
-        <span class="copyright">
-            <p>
-                <?php echo "&copy; " . date("Y"); ?> <a href="/"><?php echo get_the_author(); ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;Theme Information
-            </p>
-        </span>
+        <div class="ftr-menu">
+            <?php if (is_user_logged_in()) : ?>
+                <a href="<?php echo wp_logout_url(); ?>"><button type="button">Sign Out:</button></a>
+                <a class="active-user"><?php global $current_user; get_currentuserinfo(); echo $current_user->user_firstname; ?></a>
+            <?php else : ?>
+                <a href="<?php echo wp_login_url(); ?>"><button type="button">Sign In</button></a>
+            <?php endif ;?>
+            <a href="#">Theme Info</a>
+        </div>
+        <div class="copyright">
+            <p><?php echo "&copy; " . date("Y"); ?> <a href="/"><?php echo get_the_author(); ?></a></p>
+        </div>
     </footer>
 
 <?php wp_footer(); ?>
