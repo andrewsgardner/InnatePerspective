@@ -7,7 +7,7 @@
         <div class="ftr-menu">
             <?php if (is_user_logged_in()) : ?>
                 <a href="<?php echo wp_logout_url(); ?>"><button type="button">Sign Out:</button></a>
-                <a class="active-user"><?php global $current_user; get_currentuserinfo(); echo $current_user->user_firstname; ?></a>
+                <a href="<?php echo get_admin_url(); ?>" class="active-user"><?php global $current_user; get_currentuserinfo(); echo $current_user->user_firstname; ?></a>
             <?php else : ?>
                 <a href="<?php echo wp_login_url(); ?>"><button type="button">Sign In</button></a>
             <?php endif ;?>
