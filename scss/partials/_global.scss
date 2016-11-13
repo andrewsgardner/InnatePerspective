@@ -53,3 +53,10 @@ blockquote:before {
 	top: em(-1.792);
 	color: $hex-darkest-gray;
 }
+
+input::-moz-focus-inner { 
+	border: 0; 
+	padding: 0;
+    margin-top: em(-2);
+    margin-bottom: em(-2);
+}
