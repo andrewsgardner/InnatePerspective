@@ -38,3 +38,4 @@ Version 0.1.0
 - Updated: Changed the styling/positioning of the search box, buttons, and copyright info in the footer.
 - Added:   Added input::-moz-focus-inner pseudo element to reduce the size of all input elements in FF.
 - Removed: Deleted the icons image folder.
+- Added:   Added get_admin_url() to the a tag with .active-user in footer.php.
