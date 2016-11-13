@@ -332,10 +332,7 @@ footer {
     vertical-align: middle; }
 
 a.active-user {
-  margin-left: -0.641em;
-  color: #2b2527;
-  text-shadow: 0 0 0.00063em #fff;
-  font-weight: 800; }
+  margin-left: -0.641em; }
 
 /*-------> 14. MEDIA QUERIES <-------*/
 @media only screen and (min-width: 12.5em) {
