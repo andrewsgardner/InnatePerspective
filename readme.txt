@@ -37,3 +37,4 @@ Version 0.1.0
 - Updated: Changed the query string parameter for jQuery to v1.12.4.
 - Updated: Changed the styling/positioning of the search box, buttons, and copyright info in the footer.
 - Added:   Added input::-moz-focus-inner pseudo element to reduce the size of all input elements in FF.
+- Removed: Deleted the icons image folder.
