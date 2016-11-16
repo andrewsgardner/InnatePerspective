@@ -9,14 +9,14 @@ Live Demo: [https://www.andrewsgardner.com/code/innate-perspective/](https://www
 # Changelog
 
 **Version 0.0.1**
-- _Added_:   AdaptiveNav first pre-release code for testing purposes.
+- _Added:_   AdaptiveNav first pre-release code for testing purposes.
 
 **Version 0.1.0**
-- Added:   Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
-- Updated: Replaced $htmlLayout[''] elements with openGridContainer(), closeGridContainer(), openContent(), and closeContent() functions.
-- Updated: Converted all pre-processed units in SCSS from em to px.
-- Updated: Changed the query string parameter for jQuery to v1.12.4.
-- Updated: Changed the styling/positioning of the search box, buttons, and copyright info in the footer.
-- Added:   Added input::-moz-focus-inner pseudo element to reduce the size of all input elements in FF.
-- Removed: Deleted the icons image folder.
-- Added:   Added get_admin_url() to the a tag with .active-user in footer.php.
+- _Added:_   Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
+- _Updated:_ Replaced $htmlLayout[''] elements with openGridContainer(), closeGridContainer(), openContent(), and closeContent() functions.
+- _Updated:_ Converted all pre-processed units in SCSS from em to px.
+- _Updated:_ Changed the query string parameter for jQuery to v1.12.4.
+- _Updated:_ Changed the styling/positioning of the search box, buttons, and copyright info in the footer.
+- _Added:_   Added input::-moz-focus-inner pseudo element to reduce the size of all input elements in FF.
+- _Removed:_ Deleted the icons image folder.
+- _Added:_   Added get_admin_url() to the a tag with .active-user in footer.php.
