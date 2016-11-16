@@ -27,9 +27,6 @@ The following frameworks libraries, graphics, fonts or other files as listed hav
 	Changelog
 -----------------------------------------------------------------------------
 
-Version 0.0.1
-- Added:   AdaptiveNav first pre-release code for testing purposes.
-
 Version 0.1.0
 - Added:   Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
 - Updated: Replaced $htmlLayout[''] elements with openGridContainer(), closeGridContainer(), openContent(), and closeContent() functions.
@@ -39,3 +36,6 @@ Version 0.1.0
 - Added:   Added input::-moz-focus-inner pseudo element to reduce the size of all input elements in FF.
 - Removed: Deleted the icons image folder.
 - Added:   Added get_admin_url() to the a tag with .active-user in footer.php.
+
+Version 0.0.1
+- Added:   AdaptiveNav first pre-release code for testing purposes.
