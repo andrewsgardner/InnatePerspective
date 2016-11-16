@@ -9,7 +9,7 @@ Live Demo: [https://www.andrewsgardner.com/code/innate-perspective/](https://www
 # Changelog
 
 **Version 0.0.1**
-- <span style="color:#777;">Added:</span>   AdaptiveNav first pre-release code for testing purposes.
+- _Added_:   AdaptiveNav first pre-release code for testing purposes.
 
 **Version 0.1.0**
 - Added:   Support added for automatically injecting header comments into JS files with Gulp (via gulp-header pkg).
